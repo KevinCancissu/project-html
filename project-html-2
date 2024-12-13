@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template - Utilizar como modelo</title>
+    <link rel="stylesheet" href="./CSS-DIO/assets/css/base.css">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="menu">
+            
+            <ul>
+                <li><a href="#sobre">Sobre:</a></li>
+                <li><a href="#contato">Contato:</a></li>
+                <li><a href="#formulario">Formulario:</a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <div class="pagina-principal">
+                <h1 id="inicio"><strong>Raposa Vet</strong></h1>
+                <h2>Clinica Veterinária</h2>
+                <img src="https://tudoraposa.com.br/wp-content/uploads/2024/06/Raposa-do-Cabo-1.webp" alt="Imagem Raposa">
+            </div>
+    
+            <div class="sobre">
+                <h3 id="sobre">Tudo sobre nossa empresa:</h3>
+                <p>A Raposa Vet é uma clínica veterinária comprometida com o bem-estar e a saúde dos animais de estimação, oferecendo cuidados médicos de qualidade com um atendimento humanizado e especializado. Fundada por profissionais apaixonados pela saúde animal, nossa missão é proporcionar a melhor assistência veterinária, sempre com ética, dedicação e carinho.
+
+                    Contamos com uma equipe altamente qualificada, composta por veterinários, técnicos e profissionais especializados, que utilizam equipamentos modernos e técnicas avançadas para garantir o diagnóstico e tratamento mais eficazes. Desde consultas de rotina até procedimentos complexos, nossa estrutura é preparada para atender a todas as necessidades do seu pet.
+                    
+                    Na Raposa Vet, entendemos que cada animal é único, e por isso, buscamos um atendimento personalizado, respeitando as particularidades de cada caso. Nosso foco está não só em tratar doenças, mas também em prevenir e promover a saúde dos animais, oferecendo orientação e cuidados contínuos.
+                    
+                    Nosso compromisso vai além dos consultórios. Somos uma empresa que valoriza a relação de confiança com os tutores, com o objetivo de criar um ambiente acolhedor, seguro e dedicado à saúde dos seus animais de estimação.</br>
+                    
+                    <strong>Raposa Vet</strong> - <u>Cuidando do seu melhor amigo com carinho, competência e confiança.</p></u><br/><br/>
+
+                <h3><Strong>Consultas Veterinárias</h3></Strong>
+                <p>Nossas consultas são realizadas por veterinários experientes, que avaliam a saúde geral do seu pet, identificam sintomas e fornecem orientações para cuidados preventivos e tratamentos necessários. Cada atendimento é personalizado para atender às necessidades individuais de cada animal.</p>
+                
+                <h3><strong>Vacinação e Prevenção</h3></strong>
+                <p>A saúde preventiva é uma das nossas maiores prioridades. Oferecemos vacinas essenciais para proteger seu animal contra doenças comuns e graves, além de orientações sobre cuidados preventivos, como controle de parasitas (pulgas, carrapatos e vermes).</p><br/>
+
+                <h3><strong>Exames Laboratoriais</h3></strong>
+                <p>Realizamos uma variedade de exames laboratoriais, como exames de sangue, urina e fezes, para ajudar no diagnóstico de doenças e acompanhar a saúde do seu pet. Com resultados rápidos e precisos, podemos monitorar o bem-estar do seu animal de forma eficiente.</p><br/>
+
+                <table border="1">
+                    <thead>
+                        <tr>
+                            <th title="tabela-servicos">Serviços</th>
+                            <th>Segunda a Sexta</th>
+                            <th>Sábados</th>
+                            <th>Feriádos</th>
+                        </tr>
+                       <td>Clínica Geral</td>
+                       <td>08h - 19h</td>
+                       <td>08h - 14h</td>
+                       <td>08h - 14h</td>
+                       <tr>
+                        <td>Psicologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 14h</td>
+                        <td>08h - 14h</td>
+                       </tr>
+                       <tr>
+                        <td>Pediatria</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                       </tr>
+                       <tr>
+                        <td>Oftalmologia</td>
+                        <td>08h - 19h</td>
+                        <td>08h - 18h</td>
+                        <td>-</td>
+                       </tr>
+                    </thead>
+                </table>
+
+                
+            </div>
+    
+            <div class="contato">
+                <h3 id="contato">Contato</h3>
+                <li>
+                <strong>E-mail :</strong> kevincancissu@gmail.com
+                </li>
+                <li>
+                <strong>Telefone :</strong> (11)94444-4444
+                </li>
+                <li>
+                <strong>Endereço: </strong>Alfredo Pujol
+                </li>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3658.8962221665092!2d-46.637194559208325!3d-23.500247178929904!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef7d2f4037021%3A0x559d20386709883!2sR.%20Alfredo%20Pujol%2C%20S%C3%A3o%20Paulo%20-%20SP!5e0!3m2!1spt-PT!2sbr!4v1734095453806!5m2!1spt-PT!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <!-- Aqui vai o seu rodapé -->
+            </div>
+            <div class="formulario">
+                <h3 id="formulario" align="center">Formulário</h3>
+                <h4>Preencha o Formulário Abaixo para que possamos entrar em contato com você!</h4>
+                    <label for="name">Nome:</label>
+                   <input type="text" id="name" name="name" placeholder="Digite seu Nome"><br/>
+
+                   <label for="email">Email:</label>
+                   <input type="email" id="email" name="email" placeholder="Digite seu E-mail"><br/>
+
+                   <label for="assunto">Assunto:</label>
+                   <input type="text" id="assunto" name="assunto" placeholder="Descreva o Assunto"><br/>
+
+                   <label for="message">Mensagem:</label><br/>
+                   <textarea name="message"></textarea>
+                   <button type="submit" onclick="alert('Formulario Enviado!')">Enviar</button>
+                   <button type="reset" onclick="alert('Campos limpos!')">Limpar</button><br/>
+
+                 <a href="#inicio">Voltar ao topo:</a>
+            
+
+            </div>
+        </div>
+    </div>
+</body>
+</html>
